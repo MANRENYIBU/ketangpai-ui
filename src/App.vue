@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    
     <keep-alive include="LoginPage,RegisterPage">
       <router-view></router-view>
     </keep-alive>
@@ -8,19 +7,10 @@
 </template>
 
 <script>
-
 export default {
-  name: 'App',
-  components: {
-
-  }
+  name: 'App'
 }
 </script>
 
 <style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 </style>
